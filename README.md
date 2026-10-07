@@ -1,18 +1,35 @@
-# Barbearia Alura — exercício recuperado
+# Barbearia Alura
 
-Exercício educacional de HTML e CSS originalmente desenvolvido durante estudos com conteúdo da **Alura**.
+Exercício de HTML e CSS desenvolvido durante estudos com conteúdo da Alura e posteriormente revisado para consolidar fundamentos de front-end.
 
-O repositório antigo tinha apenas uma página de produtos e referências para CSS, imagens e páginas que não estavam presentes. Em 2026 ele foi recuperado como uma página estática completa e responsiva para preservar o histórico de aprendizado.
+## Conteúdo da página
 
-## Práticas demonstradas
-
-- HTML semântico;
-- CSS responsivo;
+- apresentação do estabelecimento;
 - navegação por seções;
-- cards de serviços;
-- hierarquia visual;
-- acessibilidade estrutural básica.
+- cards de serviços e preços;
+- seção de contato demonstrativa;
+- layout responsivo.
 
-> O conceito “Barbearia Alura” pertence ao contexto do curso. Este repositório é apresentado somente como exercício educacional, não como projeto comercial ou conceito autoral.
+## Tecnologias
 
-Para trabalhos atuais, consulte os projetos destacados no perfil de Marcos Neves.
+HTML5 e CSS3.
+
+## Rodando localmente
+
+```bash
+git clone https://github.com/Santoszoi/barbearia-alura.git
+cd barbearia-alura
+python -m http.server 8000
+```
+
+Acesse `http://localhost:8000/produtos.html`.
+
+## O que pratiquei
+
+Estrutura semântica, hierarquia visual, CSS responsivo, organização de conteúdo e adaptação de uma página antiga que tinha referências para arquivos ausentes.
+
+## Origem do exercício
+
+O conceito **Barbearia Alura** pertence ao contexto do curso da Alura. O repositório é apresentado como exercício educacional, não como projeto comercial ou conceito autoral.
+
+Para projetos atuais, consulte os projetos destacados no meu perfil.
